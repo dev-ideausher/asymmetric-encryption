@@ -32,5 +32,5 @@ const stringi = {
     }
 }
 const data = JSON.stringify(stringi);
-var encrypted = encrypt.encrypt(data);
+const encrypted = encrypt.encrypt(data);
 console.log(encrypted);
